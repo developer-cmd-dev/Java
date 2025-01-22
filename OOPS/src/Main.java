@@ -10,8 +10,6 @@ public class Main {
         s1.age = 45;
         s1.printName();
         s1.printAge();
-
-
     }
 }
 class Pen{
