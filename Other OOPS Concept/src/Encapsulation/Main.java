@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Encapsulation");
         Student student = new Student();
         try{
-        student.setData("Dev kumar","A",1,-1);
+        student.setData("Dev kumar","A",1,2);
         }catch (IllegalArgumentException error){
             System.out.println(error.getMessage());
         }
