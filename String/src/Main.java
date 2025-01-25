@@ -6,10 +6,20 @@ public class Main {
 
 
         String name2 = new String("Dev");
+        StringBuffer sb = new StringBuffer("dev");
+        System.out.println(sb.capacity());
+        System.out.println(sb.length());
+        sb.append("Kumar");
+        System.out.println(sb);
+        String str = sb.toString();
+        System.out.println(str);
+        sb.delete(0,3);
+        System.out.println(sb);
 
-        System.out.println(name2);
 
-        System.out.println(name.equals(name2));
+//        System.out.println(name2);
+//
+//        System.out.println(name.equals(name2));
 
     }
 }

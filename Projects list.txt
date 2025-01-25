@@ -1,0 +1,83 @@
+1. Student Management System ->
+Description: Create a console-based application to manage student details like name, roll number, grades, and contact information.
+Features:
+Add, update, and delete student records.
+Display all student records.
+Search for a student by roll number.
+Concepts: Arrays, Lists, Loops, File Handling.
+
+
+2. Library Management System ->
+Description: Build an application to manage library books and their borrowers.
+Features:
+Add and remove books.
+Issue and return books.
+Display the list of available books.
+Concepts: Classes, Objects, OOP (Encapsulation, Inheritance), Exception Handling.
+
+
+3. Simple Banking Application->
+Description: Develop a console-based banking system where users can perform basic transactions.
+Features:
+Create an account with a unique ID.
+Deposit and withdraw money.
+Check account balance.
+Concepts: Classes, File I/O, Basic Data Structures (like HashMap for account storage).
+
+
+4. Tic-Tac-Toe Game->
+Description: Implement the classic Tic-Tac-Toe game for two players in the console.
+Features:
+Player turn tracking.
+Validate moves.
+Detect the winner or draw.
+Concepts: 2D Arrays, Nested Loops, Conditional Statements.
+
+
+5. Number Guessing Game->
+Description: Create a game where the system randomly generates a number, and the user has to guess it.
+Features:
+Provide feedback on whether the guess is too high or too low.
+Allow multiple attempts and track the number of attempts.
+Concepts: Random Class, Loops, Conditionals.
+
+
+6. Basic Calculator->
+Description: Build a simple calculator that performs addition, subtraction, multiplication, and division.
+Features:
+Take user input for two numbers and the operation.
+Display the result or error (like division by zero).
+Concepts: Switch Statements, Exception Handling.
+
+
+7. To-Do List Application ->
+Description: Create a console-based app where users can add tasks, view tasks, and mark them as completed.
+Features:
+Store tasks in memory.
+Allow deletion of tasks.
+Display completed and pending tasks separately.
+Concepts: Lists, Loops, Conditional Statements.
+
+
+8. Grade Calculator ->
+Description: Accept marks of students in different subjects and calculate their percentage and grade.
+Features:
+Input subject-wise marks.
+Calculate total, percentage, and assign a grade (A, B, C, etc.).
+Concepts: Conditional Statements, Loops, Math Functions.
+
+
+9. Prime Number Checker->
+Description: Write a program to check if a number is prime or not.
+Features:
+Input any integer number.
+Determine if it’s a prime number.
+Concepts: Loops, Conditional Statements.
+
+
+10. Simple Address Book->
+Description: Build an address book to store names, phone numbers, and emails.
+Features:
+Add, update, and delete contacts.
+Search for contacts by name.
+Concepts: File Handling, Lists, OOP.

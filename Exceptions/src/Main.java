@@ -23,6 +23,7 @@ public class Main {
 //        System.out.println("Hello java");
 
 //        finally block exception
+
     int a[] = new int[5];
     try{
         System.out.println(a[8]);
@@ -33,7 +34,33 @@ public class Main {
     }
 
 
+try{
+    getNumberFromArray(a);
+}catch(ArrayIndexOutOfBoundsException error){
+    System.out.println(error.getMessage());
+}
+
+try{
+    float result = devideEightByAnyNum(3);
+    System.out.println(result);
+}catch (ArithmeticException error){
+    System.out.println(error.getMessage());
+}
+
+    }
 
 
+
+
+    static int getNumberFromArray(int a[]) throws ArrayIndexOutOfBoundsException{
+        return a[8];
+    }
+
+    static float devideEightByAnyNum(int num) throws ArithmeticException{
+        if(num == 0){
+            throw new ArithmeticException("Trying to divide by 0");
+        }else{
+            return 8/num;
+        }
     }
 }
